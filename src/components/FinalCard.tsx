@@ -97,8 +97,9 @@ export const FinalCard = () => {
             className="mt-12 pt-8 border-t border-border/50"
           >
             <p className="text-muted-foreground text-sm italic">
-              Made with ✨ for someone who works hard
+              Just don't forget to take care of yourself.
             </p>
+            
           </motion.div>
         </div>
       </motion.div>

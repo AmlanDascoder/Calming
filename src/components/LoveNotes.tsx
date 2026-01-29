@@ -46,7 +46,7 @@ export const LoveNotes = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-8 sm:gap-10 max-w-4xl mx-auto px-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-12 sm:gap-14 max-w-4xl mx-auto px-4">
         {notes.map((note, index) => {
           const isFlipped = flippedNotes.has(index);
           

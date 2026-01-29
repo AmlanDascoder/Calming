@@ -30,10 +30,10 @@ export const ApplauseButton = () => {
 
   const getMessage = () => {
     if (claps === 0) return "Give yourself some applause!";
-    if (claps < 10) return "Keep going!";
-    if (claps < 25) return "You're on fire! 🔥";
-    if (claps < 50) return "Standing ovation! 👏";
-    if (claps < 100) return "Legendary applause! 🌟";
+    if (claps < 5) return "Keep going!";
+    if (claps < 10) return "You're on fire! 🔥";
+    if (claps < 15) return "Standing ovation! 👏";
+    if (claps < 20) return "Legendary applause! 🌟";
     return "You've transcended! 🚀✨";
   };
 
@@ -111,10 +111,10 @@ export const ApplauseButton = () => {
         {/* Milestone badges */}
         <div className="flex flex-wrap justify-center gap-3 mt-6">
           {[
-            { threshold: 10, emoji: "🌟", label: "10 claps" },
-            { threshold: 25, emoji: "🔥", label: "25 claps" },
-            { threshold: 50, emoji: "👑", label: "50 claps" },
-            { threshold: 100, emoji: "🚀", label: "100 claps" },
+            { threshold: 5, emoji: "🌟", label: "5 claps" },
+            { threshold: 10, emoji: "🔥", label: "10 claps" },
+            { threshold: 15, emoji: "👑", label: "15 claps" },
+            { threshold: 20, emoji: "🚀", label: "20 claps" },
           ].map((milestone) => (
             <motion.div
               key={milestone.threshold}

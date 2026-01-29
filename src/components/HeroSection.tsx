@@ -11,7 +11,8 @@ export const HeroSection = ({ onButtonClick }: HeroSectionProps) => {
   const lines = [
     { text: "Hey you.", delay: 0.2 },
     { text: "Yes, you.", delay: 0.8 },
-    { text: "This page exists because you work incredibly hard.", delay: 1.4 },
+    { text: "I hope this small gift makes your day better and makes you smile", delay: 1.4 },
+    
   ];
 
   return (
