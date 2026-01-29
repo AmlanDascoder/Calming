@@ -5,19 +5,19 @@ import { useInView } from "framer-motion";
 const quotes = [
   {
     text: "You put so much effort into things, even when no one's watching.",
-    author: "Your Biggest Fan",
+    author: "Best Friend",
   },
   {
     text: "You make hard work look graceful.",
-    author: "The Universe",
+    author: "Best Friend",
   },
   {
     text: "You are already more than enough.",
-    author: "Your Future Self",
+    author: "Best Friend",
   },
   {
     text: "You carry a lot, and you do it with so much strength.",
-    author: "Everyone Who Knows You",
+    author: "Best Friend",
   },
 ];
 

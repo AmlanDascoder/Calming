@@ -10,14 +10,12 @@ const compliments = [
   "Your dedication is inspiring.",
   "The world is better because you try so hard.",
   "You bring light wherever you go.",
-  "Your persistence is truly admirable.",
   "You're stronger than you know.",
   "Every step you take matters.",
   "You're making a real difference.",
-  "Your work ethic is remarkable.",
   "You inspire others without even knowing it.",
   "You're proof that effort pays off.",
-  "The energy you bring is contagious.",
+  
 ];
 
 export const ComplimentGenerator = () => {
